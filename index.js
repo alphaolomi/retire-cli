@@ -10,7 +10,7 @@ function now(params) {
      // Spawn Retire.js as a child process
     // You can optionally add option parameters to the second argument (array)
     const command = process.cwd()+ "/node_modules/retire/bin/retire"
-    var child = spawn(command, [], {cwd: process.cwd()});
+    var child = spawn(command, ['package.json'], {cwd: process.cwd()});
     
     child.stdout.setEncoding('utf8');
     child.stdout.on('data', function (data) {
