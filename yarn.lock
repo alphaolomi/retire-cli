@@ -264,10 +264,10 @@ resolve@^1.10.0:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
-retire@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/retire/-/retire-2.2.4.tgz#4b131355ad8a7c903069a5dc65985bf21d0c228c"
-  integrity sha512-VA6/9UALdC+AQapO1RaHCpjYIzGRKt66Xb54oQu1x/7fgE0IG0/3eqNbDvVqR9lMR3od4eu6f6t4/ZEN5TQZXg==
+retire@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/retire/-/retire-3.0.0.tgz#79516615e8747485dade7beec38c56b7a1e2cd1d"
+  integrity sha512-IqV2KseWzJGImE5597aWeK5dAA3YUAjPJbTicsZPtvyuT+jkgXDON711p3fzlcG4jhwJyZblZqmF42nMZAJ/Hg==
   dependencies:
     colors "^1.1.2"
     commander "2.5.x"
